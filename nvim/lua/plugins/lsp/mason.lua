@@ -30,7 +30,7 @@ return {
       -- list of servers for mason to install
       ensure_installed = {
         -- LSP
-        "tsserver",     -- javascript/typescript
+        "ts_ls",        -- javascript/typescript
         "html",         -- html
         "cssls",        -- css
         "lua_ls",       -- lua
