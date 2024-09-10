@@ -35,6 +35,7 @@ return {
         "cssls",        -- css
         "lua_ls",       -- lua
         "pyright",      -- python
+        "eslint",       -- idk man
         "clangd",       -- c/c++
         "jdtls",        -- java
         "intelephense", -- php
