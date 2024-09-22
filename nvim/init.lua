@@ -1,11 +1,15 @@
-require("config.lazy")
-
 -- tab settings
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
 vim.opt.number = true
+
+-- css colorizer settings
+vim.opt.termguicolors = true
+
+
+require("config.lazy")
 
 -- clipboard support
 vim.opt.clipboard = "unnamedplus"
